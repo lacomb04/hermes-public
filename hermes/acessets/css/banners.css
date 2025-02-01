@@ -1,0 +1,54 @@
+.banner-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Garante que a posição seja relativa ao fluxo normal da página */
+  margin: 15vh auto 0 auto; /* Define uma margem superior para afastá-lo do header */
+  width: 70vw;
+  padding: 0 0 10px 0;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  .banner-principal {
+    padding-left: 20px;
+    width: 100vw; /* Aumenta a largura para melhor visualização */
+    margin-top: 3vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-principal {
+    padding-left: 20px;
+    width: 100vw; /* Ocupa mais espaço na tela menor */
+    margin-top: 3vh;
+  }
+}
+
+/* Ajustes para celulares */
+@media (max-width: 375px) {
+  .banner-principal {
+    padding-left: 20px;
+    width: 100vw; /* Deixa o banner quase do tamanho da tela */
+    margin-top: 8vh;
+  }
+}
+
+/* Segundo banner */
+
+.banner-dentista img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Garante que a posição seja relativa ao fluxo normal da página */
+  margin: 0 auto 0 auto; /* Define uma margem superior para afastá-lo do header */
+  width: 80vw;
+  padding: 0 0 10px 0;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  .banner-dentista img {
+    width: 100vw;
+  }
+}
