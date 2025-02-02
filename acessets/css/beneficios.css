@@ -1,0 +1,82 @@
+@import url("var.css");
+
+.beneficios {
+  background: radial-gradient(circle, #a66c36 10%, #a66c36 80%);
+  padding: 3em 2em;
+  color: white;
+}
+
+.beneficios h2 {
+  font-family: var(--fonte-primaria);
+  font-weight: 200;
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.8em; /* Ajusta para alinhar com os itens da lista */
+}
+
+.beneficios ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px; /* Define uma largura máxima para manter a leitura confortável */
+  margin: 0 auto; /* Centraliza a lista dentro da section */
+}
+
+.beneficios li {
+  font-size: 1.2em;
+  margin-bottom: 0.8em;
+  display: flex;
+  align-items: center; /* Alinha a bolinha e o texto verticalmente */
+  gap: 0.8em; /* Espaço entre a bolinha e o texto */
+}
+
+.beneficios li::before {
+  content: "•";
+  color: var(--cor-primaria);
+  font-size: 1.5em;
+  flex-shrink: 0; /* Evita que a bolinha diminua de tamanho */
+}
+
+.beneficios-principais {
+  padding: 3em 2em;
+  color: rgb(255, 255, 255);
+}
+
+.beneficios-principais h2 {
+  font-family: var(--fonte-primaria);
+  font-weight: 200;
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.8em; /* Alinha com os itens da lista */
+}
+
+.beneficios-principais ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.beneficios-principais li {
+  font-size: 1.2em;
+  margin-bottom: 0.8em;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.beneficios-principais li::before {
+  content: "•";
+  color: var(--cor-primaria);
+  font-size: 1.5em;
+  flex-shrink: 0;
+}

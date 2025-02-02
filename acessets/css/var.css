@@ -1,0 +1,10 @@
+:root {
+  /* Cores */
+  --cor-primaria: #f5ae6c;
+  --cor-segundaria: #a66c36;
+  --cor-segundaria-dark: #a66c36;
+
+  /* fontes */
+  --fonte-primaria: "afterglow", sans-serif;
+  --fonte-segundaria: "Alfa Slab One", sans-serif;
+}

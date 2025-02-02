@@ -1,0 +1,43 @@
+/* Reset CSS - Remove estilos padrão do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove decoração de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove bullets e padding de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Define fonte-base e melhora legibilidade */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Remove estilos padrão de inputs e botões */
+button,
+input,
+textarea {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Garante que imagens não extrapolem seus containers */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
